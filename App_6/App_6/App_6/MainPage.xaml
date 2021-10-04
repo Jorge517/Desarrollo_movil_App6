@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_6.MainPage"
+             BackgroundImage="https://w0.peakpx.com/wallpaper/411/213/HD-wallpaper-cotton-candy-color-colors-pink.jpg"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+     <StackLayout BackgroundColor="#e6e6e6">
+        <Grid>
+            <StackLayout Padding="0" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="600" WidthRequest="700" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+
+                        <StackLayout Margin="10">
+                            <Label Text="Inicio de sesión" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="30"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="10,10">
+
+                            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                        <Image Source="https://www.findool.com/images/avatars/avatar.png" Aspect="AspectFill" Margin="0"/>
+                                    </Frame>
+                                    <Entry Text="{Binding UserName}" WidthRequest="230"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Usuario o contraseña incorrectos" HorizontalOptions="Center" TextColor="Red" IsVisible="{Binding IsErrorLogin}"/>
+
+
+                            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                        <Image Source="https://images.all-free-download.com/images/graphicthumb/lock_icon_6813906.jpg" Aspect="AspectFill" Margin="0"/>
+                                    </Frame>
+                                    <Entry Text="{Binding Password}" IsPassword="True" WidthRequest="230"/>
+
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Usuario o contraseña incorrectos" HorizontalOptions="Center" TextColor="Red" IsVisible="{Binding IsErrorLogin}"/>
+
+
+                            <Button Text="Aceptar"  Command="{Binding LoginCommand}" BackgroundColor="#33CD31" TextColor="White" CornerRadius="30" Margin="18" />
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+    
+    
+    <!--<StackLayout Padding=" 0">
+        <Label Text="LOGIN" FontSize="Title" Padding="30,10,30,10" HorizontalOptions="Center" TextColor="Black"/>
+        <Label Text="Usuario o contraseña incorrectos" HorizontalOptions="Center" TextColor="Red" IsVisible="{Binding IsErrorLogin}"/>
+
+        <Label Text="Usuario" TextColor="Black" HorizontalOptions="Center"/>
+        <Entry Text="{Binding UserName}"/>
+
+        <Label Text="Contraseña" TextColor="Black" HorizontalOptions="Center"/>
+        <Entry Text="{Binding Password}" IsPassword="True" />
+
+        <Button HeightRequest="50" Text="Login" Command="{Binding LoginCommand}" BorderWidth="2" CornerRadius="15"  HorizontalOptions="Center" Padding="10" BackgroundColor="GreenYellow" TextColor="Black"/>
+    </StackLayout>-->
+
+</ContentPage>

@@ -1,0 +1,17 @@
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.csproj.AssemblyReference.cache
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\bin\Debug\netstandard2.0\App_6.deps.json
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\bin\Debug\netstandard2.0\App_6.dll
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\bin\Debug\netstandard2.0\ref\App_6.dll
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\bin\Debug\netstandard2.0\App_6.pdb
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\View\PageTwo.xaml.g.cs
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.AssemblyInfoInputs.cache
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.AssemblyInfo.cs
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.dll
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\ref\App_6.dll
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\App_6.pdb
+C:\Users\TOSHIBA}\source\repos\App_6\App_6\App_6\obj\Debug\netstandard2.0\View\DetailsPage.xaml.g.cs
